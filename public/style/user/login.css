@@ -1,3 +1,10 @@
+*{
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  font-family: 'Courier New', Courier, monospace;
+}
+
 body { 
     padding: 0;
     margin: auto;
@@ -12,8 +19,10 @@ body {
    h1 {
      font-size: 4.5em;
      padding: 0;
-     margin: 10px;
+     margin-bottom: 50px;
      font-family: PT Serif;
+     border-bottom: 4px solid #eee;
+     color: rgb(228, 217, 217);
    }
  
    .container {
@@ -27,7 +36,7 @@ body {
      background-color: #5A3E21;
      overflow: hidden;
    }
-   
+
    .container-left {
      grid-column: 1/9;
      display: flex;
@@ -42,7 +51,7 @@ body {
    .container-left img {
      width: 100%;
    }
-    
+ 
    .container-right {
      grid-column: 1/9;
      display: flex;
@@ -51,15 +60,45 @@ body {
      flex-direction: column;
    }
    
-   .container-right .input {
+   .container-right label{
+     text-align: left;
+     color: #f8d7b3;
+     font-family: 'Times New Roman', Times, serif;
+     font-size: 1.5em;
+   }
+
+   .container-right form input {
      display: flex;
      justify-content: center;
-     align-items: left;
      flex-direction: column;
-     font-size: 1.5em;
-     color: #f8d7b3;
+     padding: 8px 10px;
+     border: 1px solid;
+     font-size: 20px;
+   }
+
+   .container-right form button {
+     width: 50%;
+     height: 35px;
+     padding: 5px 0;
+     border-radius: 15px;
+     background-color: #C4C4C4;
+     font-family: PT Serif;
+     font-size: 18px;
+     color: black;
+     font-weight: bold;
+   }
+
+   .container-right .reg  h3{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: #dbbea1;
    }
    
+   .container-right a {
+    font-family: 'Times New Roman', Times, serif;
+    color:white;
+   }
+
    @media screen and (min-width: 450px) {
      .container {
        width: 400px;
