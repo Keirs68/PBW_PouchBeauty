@@ -24,3 +24,7 @@ Route::get('/home', function () {
 Route::get('/login', function () {
     return view('user/login');
 });
+
+Route::get('/survey', function () {
+    return view('user/survey);
+});
