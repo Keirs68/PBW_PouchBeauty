@@ -1,0 +1,72 @@
+body{
+    background-color: #CDA781;
+    margin: 0px;
+    padding: 0px;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+section{
+    width: 100%;
+    height: 95vh;
+    position: absolute;
+}
+
+.img-logo{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 50px;
+    top: 10px;
+    border-radius: 50%;
+}
+
+.header{
+    width: 100%;
+    height: 80px;
+    background-color: #CDA781
+}
+
+.header h1{
+    text-align: center;
+    font-family: 'Sorts Mill Goudy';
+    font-size: 50px; 
+    line-height: 2px; 
+    padding-top: 2px;
+}
+
+.header h5{
+    text-align: center;
+    font-family: 'Special Elite';
+    font-size: 20px;
+    text-align: center;
+    line-height: 0px
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    background-color: #FAE7D5;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    padding: 0px 0px;
+}
+
+.nav ul{
+    display:flex;
+}
+
+.nav ul li a{
+    margin:10px;
+    font-family: 'Sorts Mill Goudy';;
+    color:#505050;
+    font-size: 16px;
+    font-weight:400;
+}
