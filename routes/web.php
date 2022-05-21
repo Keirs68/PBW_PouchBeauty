@@ -25,7 +25,10 @@ Route::get('/signup', function () {
     return view('user/signup');
 });
 
-  
+Route::get('/profil', function () {
+    return view('user/profil');
+}); 
+
 Route::get('/survey', function () {
-    return view('user/survey);
+    return view('user/survey');
 });
