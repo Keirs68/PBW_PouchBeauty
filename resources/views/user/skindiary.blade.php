@@ -9,6 +9,10 @@
 </head>
 <body>
     <center><img class="image" src="assets/images/profil.png" alt="profil"></img></center>
+    <div class="container-teks">
+        <li><a href="#">Nama</a></li>
+        <li><a href="#">Edit Profil</a></li>
+    </div>
     <div class="teks">
         <h1>Skin Goals & Budget</h1>
     </div>

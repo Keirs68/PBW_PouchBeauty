@@ -2,6 +2,14 @@ body{
     background-color: #CDA781;
 }
 
+li {
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
 .image{
     width: 150px;
     height: 150px;
@@ -9,6 +17,28 @@ body{
     margin-top: 30px;
     margin-bottom: 20px;
     border-radius: 50%;
+}
+
+.container-teks{
+    position: absolute;
+    width: 80px;
+    height: 18px;
+    left: 640px;
+    top: 200px;
+    font-family: 'SeoulNamsan CM';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.container-teks  a {
+    text-align: center;
+    color: black;
+}
+
+.container-teks li {
+    text-align: center;
+    line-height: 25px;
 }
 
 .teks h1{
