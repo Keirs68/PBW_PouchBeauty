@@ -21,7 +21,7 @@
                <div class="reg">
                   <h3>Belum Punya Akun? <a href="sign up">Sign up</a></h3><br>
                 </div>
-            <center><button>NEXT</button></center>
+            <center><button type="submit">NEXT</button></center>
         </form> 
     </div>
   </div>
