@@ -1,82 +1,46 @@
 body{
     background-color: #CDA781;
-    margin: 0px;
-    padding: 0px;
 }
 
-ul{
-    list-style: none;
-}
-
-a{
-    text-decoration: none;
-}
-
-section{
-    width: 100%;
-    height: 95vh;
-    position: absolute;
-}
-
-.img-logo{
-    position: absolute;
-    width: 100px;
-    height: 100px;
+.image{
+    width: 150px;
+    height: 150px;
     left: 50px;
-    top: 10px;
+    margin-top: 30px;
+    margin-bottom: 20px;
     border-radius: 50%;
 }
 
-.header{
-    width: 100%;
-    height: 80px;
-    background-color: #CDA781
-}
-
-.header h1{
+.form-group {
     text-align: center;
-    font-family: 'Sorts Mill Goudy';
-    font-size: 50px; 
-    line-height: 2px; 
-    padding-top: 2px;
+    padding-top: 15px;
 }
 
-.header h5{
-    text-align: center;
-    font-family: 'Special Elite';
-    font-size: 20px;
-    line-height: 0px
-}
-
-.btn{
+.form-group label{
     position: absolute;
-    left: 1250px;
-    top: 10px;
-    color: rgb(209, 196, 18);
-    font-family: 'Sorts Mill Goudy';
-    font-size: 16px;
-    border-radius: 10px;
-    background-color: #331f09;
-    padding: 10px 20px;  
+    font-size: 20px;
+    color: black;
+    left: 410px;
+    line-height: 5px;
+}
+.form-group input {
+    justify-content: center;
+    flex-direction: column;
+    padding: 8px 150px;
+    border: 1px solid;
+    font-size: 20px;
+    color: #D1BEAB;
 }
 
-.nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.container .registerbtn {
+    position: absolute;
+    width: 100px;
     height: 40px;
-    background-color: #FAE7D5;
-    padding: 5px 10px;
-}
-
-.nav ul{
-    display:flex;
-}
-
-.nav ul li a{
-    margin:10px;
-    font-family: 'Sorts Mill Goudy';;
-    color:#505050;
-    font-size: 18px;
-    font-weight:400;
+    left: 1000px;
+    top: 610px;
+    background: #5F5940;
+    border-radius: 0px;
+    font-family: 'Sedan SC';
+    font-size: 20px;
+    color: white;
 }

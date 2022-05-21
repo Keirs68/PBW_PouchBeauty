@@ -8,26 +8,31 @@
     <link rel="stylesheet" href="style/user/profil.css"/>
 </head>
 <body>
-<section>
-        <!---- Header ---->
-            <div class="header">
-                <h1>POUCHBEAUTY</h1>
-                <h5>by Shipoo</h5>
-                <a href="#" class="btn">Log In</a>
-             </div>
-
-        <!---- navigation bar ---->
-        <div class="nav">
-            <!--- menu --->
-            <ul>
-                <li><a href="#" class="active">Home</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Skin Check</a></li>
-                <li><a href="#">Analyze Product</a></li>
-                <li><a href="#">Skindiary</a></li>
-            </ul>
-        </div>
-</session>
+    <center><img class="image" src="assets/images/profil.png" alt="profil"></img></center>
+    <div class="container">
+        <form>
+            <div class="form-group">
+            <label for="">Nama Lengkap</label><br>
+            <input type="text"><br>
+            </div>
+            <div class="form-group">
+            <label for="">Username</label><br>
+            <input type="text"><br>
+            </div>
+            <div class="form-group">
+            <label for="">Alamat Email</label><br>
+            <input type="text"><br>
+            <div class="form-group">
+            <label for="">Tanggal Lahir</label><br>
+            <input type="text"><br>
+            </div>
+            <div class="form-group">
+            <label for="">Password</label><br>
+            <input type="password"><br>
+            </div>
+        </form>
+        <button type="submit" class="registerbtn">Save</button></right>
+    </div>
     
 </body>
 </html>
