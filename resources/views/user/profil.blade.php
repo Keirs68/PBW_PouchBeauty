@@ -10,8 +10,6 @@
 <body>
 <section>
         <!---- Header ---->
-        <!--- logo --->
-        <img class="img-logo" src="assets/images/logo.jpeg" alt="logo">
             <div class="header">
                 <h1>POUCHBEAUTY</h1>
                 <h5>by Shipoo</h5>
