@@ -81,6 +81,13 @@ section{
     font-weight:400;
 }
 
+.nav-p li a{
+    font-family: 'Sorts Mill Goudy';;
+    color:#565555;
+    font-size: 18px;
+    font-weight:400;
+}
+
 .container img{
     width: 100%;
     height: 500px;

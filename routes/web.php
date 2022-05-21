@@ -32,3 +32,7 @@ Route::get('/profil', function () {
 Route::get('/survey', function () {
     return view('user/survey');
 });
+
+Route::get('/skindiary', function () {
+    return view('user/skindiary');
+});
