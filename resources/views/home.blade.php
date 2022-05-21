@@ -28,6 +28,10 @@
                 <li><a href="#">Analyze Product</a></li>
                 <li><a href="#">Skindiary</a></li>
             </ul>
+            <div class="nav-p">
+                <li><a href="#">Profile</a></li>
+            </div>
+            
         </div>
     
 

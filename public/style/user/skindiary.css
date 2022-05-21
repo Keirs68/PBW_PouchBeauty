@@ -1,0 +1,39 @@
+body{
+    background-color: #CDA781;
+}
+
+.image{
+    width: 150px;
+    height: 150px;
+    left: 50px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+}
+
+.teks h1{
+    position: absolute;
+    width: 268px;
+    height: 0px;
+    left: 330px;
+    top: 45%;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 0px;
+/* identical to box height, or 0% */
+    display: flex;
+    align-items: flex-end;
+    text-transform: capitalize;
+}
+
+.box{
+    position: absolute;
+    width: 50%;
+    height: 60px;
+    padding: 16px;
+    background-color:  #D1BEAB;
+    top: 50%;
+    left: 330px;
+}
