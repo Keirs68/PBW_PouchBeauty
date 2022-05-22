@@ -18,9 +18,13 @@
             <input type="text"><br>
             <h2><label for="">jelaskan pemasalahan beserta upaya yang telah dicoba</label><br></h2>
             <input type="text"><br>
-            <center><button>NEXT</button></center>
         </form> 
     </div>
+    <div class="submit">
+    <form>
+            <center><button>SUBMIT</button></center>
+        </form> 
+        </div>
   </div>
 </body>
 </html>
