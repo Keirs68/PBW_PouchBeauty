@@ -61,5 +61,9 @@ Route::get('/skin-check', function () {
 });
 
 Route::get('/bantuan', function () {
-    return view('user/bantuan');
+    return view('bantuan');
+});
+
+Route::get('/about-us', function () {
+    return view('about-us');
 });

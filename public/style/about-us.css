@@ -1,0 +1,39 @@
+body{
+    background-color: #CDA781;
+    margin: 0px;
+}
+
+img{
+    position: absolute;
+    width: 100%;
+    left: 0%;
+    top: 0%;
+}
+
+.teks {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: -40px;
+    font-size: 75px;
+    font-family: 'Sylfaen';
+}
+
+.container{
+    position: absolute;
+    width: 900px;
+    height: 300px;
+    left: 250px;
+    top: 250px;
+    background: #D1BEAB;
+    border-radius: 38px;
+}
+
+.container-teks{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 30px;
+    font-size: 20px;
+    font-family: 'Sylfaen';
+}
