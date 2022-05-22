@@ -12,13 +12,16 @@
     <input class="search" type="text" placeholder="Cari..." required>	
     <input class="button" type="button" value="Cari">		
     </form>
-    <table class="table1">
-		<tr>
-			<th>hhhh</th>
-			<th>Scarlatte herbalism mugwort mask</th>
-		</tr>
-		
-	</table>	
+        <tr>
+            <td rowspan="4">
+                <img src="assets/images/scarlattemask.jpg" width="200" />
+            </td>
+        </tr>
+        <tr>
+            <td>Scarlatte herbalism mugwort mask</td>  
+        </tr>
+    </table>
+    	
 
     
 </body>

@@ -60,6 +60,31 @@
     .container-right form input {
       padding: 100px 130px;
       margin-bottom: 50;
+      margin-left:200px;
       border: 1px solid;
       font-size: 12px;
     }
+    .container-right form button {
+      width: 70%;
+      height: 55px;
+      padding: 12px 20px;
+      background-color: #26391f;
+      font-family: PT Serif;
+      font-size: 24px;
+      color: rgb(252, 251, 251);
+      font-weight: bold;
+      margin-bottom: 20px;
+ }
+
+    button{
+      width: 10%;
+      height: 10px;
+      padding: 20px 20px;
+      background-color: #26391f;
+      font-family: PT Serif;
+      font-size: 18px;
+      mar: 50px;
+      color: rgb(252, 251, 251);
+      font-weight: bold;
+ }
+ 
