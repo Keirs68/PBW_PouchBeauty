@@ -22,7 +22,7 @@ Route::get('/', function () {
     return view('home');
 });
 
- Route::get('/login', function () {
+Route::get('/login', function () {
      return view('user/login');
 });
 
@@ -44,7 +44,6 @@ Route::get('/survey', function () {
     return view('user/survey');
 });
 
-<<<<<<< Updated upstream
 // Route::get('/survey', [SurveyController::class, 'survey']);
 
 Route::get('/edit-profil', function () {
@@ -59,8 +58,8 @@ Route::get('/skindiary', function () {
 
 Route::get('/skin-check', function () {
     return view('user/skin-check');
-=======
+});
+
 Route::get('/bantuan', function () {
     return view('user/bantuan');
->>>>>>> Stashed changes
 });
