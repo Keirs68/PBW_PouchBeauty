@@ -35,7 +35,7 @@
                 <li><a href="#" class="active">Home</a></li>
                 <li><a href="about-us">About Us</a></li>
                 <li><a href="skin-check">Skin Check</a></li>
-                <li><a href="#">Analyze Product</a></li>
+                <li><a href="Analyze-Product">Analyze Product</a></li>
                 <li><a href="skindiary">Skindiary</a></li>
             </ul>
             <div class="nav-p">
