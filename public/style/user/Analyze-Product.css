@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  body { 
+      padding: 0;
+      margin: auto;
+      overflow-x: hidden;
+      display: flex;
+      justify-content: left;
+      align-items: left;
+      height: 100vh;
+      background: #CDA781;
+     }
+     form {
+        width:500px;
+        margin:70px auto;
+    }
+    .search {
+        padding:20px 98px;
+        background:rgba(243, 238, 238, 0.978);
+        border:0px solid #f1f1ec;
+    }
+    .button {
+        position:relative;
+        padding:19px 37px;
+        left:-8px;
+        border:2px solid #796c41;
+        background-color:#848551;
+        color:#fafafa;
+    }
+    .button:hover  {
+        background-color:#fafafa;
+        color:#207cca;
+    }

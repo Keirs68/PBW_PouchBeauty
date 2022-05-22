@@ -61,9 +61,21 @@ Route::get('/skin-check', function () {
 });
 
 Route::get('/bantuan', function () {
+<<<<<<< HEAD
     return view('bantuan');
 });
 
 Route::get('/about-us', function () {
     return view('about-us');
+=======
+    return view('user/bantuan');
+});
+
+Route::get('/Analyze-Product', function () {
+    return view('user/Analyze-Product');
+});
+
+Route::get('/hasil-searching', function () {
+    return view('user/hasil-searching');
+>>>>>>> Syifa-Azhima
 });

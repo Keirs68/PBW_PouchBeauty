@@ -56,3 +56,10 @@
     li {
       list-style-type: none;
     }
+
+    .container-right form input {
+      padding: 100px 130px;
+      margin-bottom: 50;
+      border: 1px solid;
+      font-size: 12px;
+    }
