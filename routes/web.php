@@ -63,3 +63,7 @@ Route::get('/skin-check', function () {
 Route::get('/bantuan', function () {
     return view('user/bantuan');
 });
+
+Route::get('/Analyze-Product', function () {
+    return view('user/Analyze-Product');
+});

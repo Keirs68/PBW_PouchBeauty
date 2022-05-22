@@ -105,9 +105,9 @@
     <p>11. berapa lama rata-rata lamu tidur dalam sehari?</p>
     <div class="teks">
     <i>
-      <li><input type="radio" name="NO6" value="a">kurang dari 6 jam></li>
-      <li><input type="radio" name="NO6" value="b">6 - 8 jam sehari</li>
-      <li><input type="radio" name="NO6" value="b">8 jam lebih</li>
+      <li><input type="radio" name="NO11" value="a">kurang dari 6 jam></li>
+      <li><input type="radio" name="NO11" value="b">6 - 8 jam sehari</li>
+      <li><input type="radio" name="NO11" value="b">8 jam lebih</li>
       </i>  
     </div>
     <p>12. permasalahan kulit yang ingin kamu atasi saat ini? : (boleh pilih lebih dari satu)</p>
@@ -130,11 +130,11 @@
     <p>13. berapa anggaran skincare yang ingin kamu sediakan setiap bulan?</p>
     <div class="teks">
     <i>
-      <li><input type="radio" name="NO2" value="a">kurang dari rp.100.1000</li>
-      <li><input type="radio" name="NO2" value="b">rp.100.000 - rp.200.000</li>
-      <li><input type="radio" name="NO2" value="a">rp.200.000 - rp.300.000</li>
-      <li><input type="radio" name="NO2" value="b">rp.300.000 - rp.500.000</li>
-      <li><input type="radio" name="NO2" value="b">lebih dari rp.500.000</li>
+      <li><input type="radio" name="NO13" value="a">kurang dari rp.100.1000</li>
+      <li><input type="radio" name="NO13" value="b">rp.100.000 - rp.200.000</li>
+      <li><input type="radio" name="NO13" value="a">rp.200.000 - rp.300.000</li>
+      <li><input type="radio" name="NO13" value="b">rp.300.000 - rp.500.000</li>
+      <li><input type="radio" name="NO13" value="b">lebih dari rp.500.000</li>
       </i>  
     </div>
     <p>14. foto pipi kanan, pipi kiri dan sekuruh wajah kamu ya</p>
@@ -144,7 +144,7 @@
 <br />
 </form> 
       <div class="container-right form button">
-      <center><button type="submit">NEXT</button></center>
+      <center><button type="submit">SUBMIT</button></center>
         </div>
   </div>
     

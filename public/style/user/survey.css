@@ -63,15 +63,3 @@
       border: 1px solid;
       font-size: 12px;
     }
-
-    .container-right form button {
-      width: 50%;
-      height: 35px;
-      padding: 5px 0;
-      border-radius: 15px;
-      background-color: #1b4224;
-      font-family: PT Serif;
-      font-size: 18px;
-      color: rgb(255, 254, 254);
-      font-weight: bold;
-    }
