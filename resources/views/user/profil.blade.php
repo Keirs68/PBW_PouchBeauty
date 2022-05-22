@@ -9,30 +9,14 @@
 </head>
 <body>
     <center><img class="image" src="assets/images/profil.png" alt="profil"></img></center>
-    <div class="container">
-        <form>
-            <div class="form-group">
-            <label for="">Nama Lengkap</label><br>
-            <input type="text"><br>
-            </div>
-            <div class="form-group">
-            <label for="">Username</label><br>
-            <input type="text"><br>
-            </div>
-            <div class="form-group">
-            <label for="">Alamat Email</label><br>
-            <input type="text"><br>
-            <div class="form-group">
-            <label for="">Tanggal Lahir</label><br>
-            <input type="text"><br>
-            </div>
-            <div class="form-group">
-            <label for="">Password</label><br>
-            <input type="password"><br>
-            </div>
-        </form>
-        <button type="submit" class="registerbtn">Save</button></right>
+    <div class="container-teks">
+        <li>Nama</li>
+        <li><a href="edit-profil">Edit Profil</a></li>
     </div>
-    
+    <div class="teks">
+        <h1>Skin Goals & Budget</h1>
+    </div>
+    <div class="box">
+    </div>
 </body>
 </html>

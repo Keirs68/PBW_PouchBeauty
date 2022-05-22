@@ -1,5 +1,15 @@
 body{
     background-color: #CDA781;
+    margin: 0px;
+    padding: 0px;
+}
+
+li {
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
 }
 
 .image{
@@ -11,36 +21,51 @@ body{
     border-radius: 50%;
 }
 
-.form-group {
+.container-teks{
+    position: absolute;
+    width: 80px;
+    height: 18px;
+    left: 640px;
+    top: 200px;
+    font-family: 'SeoulNamsan CM';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.container-teks  a {
     text-align: center;
-    padding-top: 15px;
-}
-
-.form-group label{
-    position: absolute;
-    font-size: 20px;
     color: black;
-    left: 410px;
-    line-height: 5px;
-}
-.form-group input {
-    justify-content: center;
-    flex-direction: column;
-    padding: 8px 150px;
-    border: 1px solid;
-    font-size: 20px;
-    color: #D1BEAB;
 }
 
-.container .registerbtn {
+.container-teks li {
+    text-align: center;
+    line-height: 25px;
+}
+
+.teks h1{
     position: absolute;
-    width: 100px;
-    height: 40px;
-    left: 1000px;
-    top: 610px;
-    background: #5F5940;
-    border-radius: 0px;
-    font-family: 'Sedan SC';
-    font-size: 20px;
-    color: white;
+    width: 268px;
+    height: 0px;
+    left: 330px;
+    top: 45%;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 0px;
+/* identical to box height, or 0% */
+    display: flex;
+    align-items: flex-end;
+    text-transform: capitalize;
+}
+
+.box{
+    position: absolute;
+    width: 50%;
+    height: 60px;
+    padding: 16px;
+    background-color:  #D1BEAB;
+    top: 50%;
+    left: 330px;
 }
