@@ -22,9 +22,9 @@ Route::get('/', function () {
     return view('home');
 });
 
-Route::get('/login', function () {
-    return view('user/login');
- });
+ Route::get('/login', function () {
+     return view('user/login');
+});
 
 // Route::get('/login', [UserController::class, 'login']);
 
