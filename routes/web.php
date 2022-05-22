@@ -67,3 +67,7 @@ Route::get('/bantuan', function () {
 Route::get('/Analyze-Product', function () {
     return view('user/Analyze-Product');
 });
+
+Route::get('/hasil-searching', function () {
+    return view('user/hasil-searching');
+});
