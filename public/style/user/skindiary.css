@@ -1,13 +1,7 @@
 body{
     background-color: #CDA781;
-}
-
-li {
-    list-style-type: none;
-}
-
-a{
-    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
 }
 
 .image{
@@ -19,51 +13,67 @@ a{
     border-radius: 50%;
 }
 
-.container-teks{
+.p{
     position: absolute;
-    width: 80px;
-    height: 18px;
-    left: 640px;
-    top: 200px;
-    font-family: 'SeoulNamsan CM';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-}
-
-.container-teks  a {
-    text-align: center;
-    color: black;
-}
-
-.container-teks li {
-    text-align: center;
-    line-height: 25px;
-}
-
-.teks h1{
-    position: absolute;
-    width: 268px;
-    height: 0px;
-    left: 330px;
-    top: 45%;
-    font-family: 'Rubik';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 25px;
-    line-height: 0px;
-/* identical to box height, or 0% */
-    display: flex;
-    align-items: flex-end;
-    text-transform: capitalize;
+    top: 230px;
+    left: 550px;
 }
 
 .box{
     position: absolute;
-    width: 50%;
+    width: 800px;
+    height: 80px;
+    left: 310px;
+    top: 280px;
+    background: #D1BEAB;
+    border-radius: 48px;
+}
+
+.box-teks{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     height: 60px;
-    padding: 16px;
-    background-color:  #D1BEAB;
-    top: 50%;
-    left: 330px;
+    padding: 10px 10px;
+}
+
+.box-teks ul{
+    display:flex;
+}
+
+.box-teks ul p{
+    margin:50px;
+    font-family: 'Sorts Mill Goudy';;
+    color:#505050;
+    font-size: 18px;
+    font-weight:400;
+}
+
+h5{
+    position: absolute;
+    left:340px;
+    top: 400px;
+    color: black;
+    font-family: 'Scope One';
+}
+
+.container{
+    position: absolute;
+    width: 55%;
+    height: 30%;
+    padding: 16px 30px;
+    background-color: #D1BEAB ;
+    top: 430px;
+    left: 340px; 
+}
+
+.table{
+    font-family: sans-serif;
+    color: #232323;
+    border-collapse: collapse;
+}
+
+.table th td{
+    border: 2px solid #999;
+    padding: 8px 20px;
 }

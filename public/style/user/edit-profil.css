@@ -1,0 +1,46 @@
+body{
+    background-color: #CDA781;
+}
+
+.image{
+    width: 150px;
+    height: 150px;
+    left: 50px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+}
+
+.form-group {
+    text-align: center;
+    padding-top: 15px;
+}
+
+.form-group label{
+    position: absolute;
+    font-size: 20px;
+    color: black;
+    left: 410px;
+    line-height: 5px;
+}
+.form-group input {
+    justify-content: center;
+    flex-direction: column;
+    padding: 8px 150px;
+    border: 1px solid;
+    font-size: 20px;
+    color: #D1BEAB;
+}
+
+.container .registerbtn {
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    left: 1000px;
+    top: 610px;
+    background: #5F5940;
+    border-radius: 0px;
+    font-family: 'Sedan SC';
+    font-size: 20px;
+    color: white;
+}

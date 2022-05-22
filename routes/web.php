@@ -1,6 +1,11 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\UserController;
+use App\Http\Controllers\SkindiaryController;
+use App\Http\Controllers\SurveyController;
+
+
 
 /*
 |--------------------------------------------------------------------------
@@ -19,20 +24,38 @@ Route::get('/', function () {
 
 Route::get('/login', function () {
     return view('user/login');
-});
+ });
+
+// Route::get('/login', [UserController::class, 'login']);
 
 Route::get('/signup', function () {
     return view('user/signup');
 });
 
+// Route::get('/signup', [UserController::class, 'signup']);
+
 Route::get('/profil', function () {
     return view('user/profil');
 }); 
+
+// Route::get('/profil', [UserController::class, 'profil']);
 
 Route::get('/survey', function () {
     return view('user/survey');
 });
 
+// Route::get('/survey', [SurveyController::class, 'survey']);
+
+Route::get('/edit-profil', function () {
+    return view('user/edit-profil');
+});
+
 Route::get('/skindiary', function () {
     return view('user/skindiary');
+});
+
+// Route::get('/skindiary', [SkindiaryController::class, 'skindiary']);
+
+Route::get('/skin-check', function () {
+    return view('user/skin-check');
 });

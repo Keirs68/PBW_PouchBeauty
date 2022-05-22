@@ -15,7 +15,7 @@
             <div class="header">
                 <h1>POUCHBEAUTY</h1>
                 <h5>by Shipoo</h5>
-                <a href="#" class="btn">Log In</a>
+                <a href="login" class="btn">Log In</a>
              </div>
 
         <!---- navigation bar ---->
@@ -24,12 +24,12 @@
             <ul>
                 <li><a href="#" class="active">Home</a></li>
                 <li><a href="#">About Us</a></li>
-                <li><a href="#">Skin Check</a></li>
+                <li><a href="skin-check">Skin Check</a></li>
                 <li><a href="#">Analyze Product</a></li>
-                <li><a href="#">Skindiary</a></li>
+                <li><a href="skindiary">Skindiary</a></li>
             </ul>
             <div class="nav-p">
-                <li><a href="#">Profile</a></li>
+                <li><a href="profil">Profile</a></li>
             </div>
             
         </div>
@@ -79,18 +79,9 @@
     
     <!-- footer -->
     <div class="footer">
-        <p>Contact Us</p> 
+
         <!--- logo --->
         <h1>PouchBeauty</h1>
-        
-        <!--social-->
-        <div class="social-icons">
-            <a href="#"><i class="fab fa-whatsapp"></i></a>
-            <a href="#"><i class="fab fa-facebook-f"></i></a>
-            <a href="#"><i class="fab fa-twitter"></i></a>
-            <a href="#"><i class="fab fa-instagram"></i></a>
-            <a href="#"><i class="fab fa-youtube"></i></a>
-        </div>
 
         <!--copyright-->
         <div class="copyright">Copyright by Shipoo</div>
