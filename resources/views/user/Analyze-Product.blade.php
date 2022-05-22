@@ -8,13 +8,10 @@
     <link rel="stylesheet" href="style/user/Analyze-Product.css">
 </head>
 <body>
-<div class="box">
-  <div class="container-1">
-      <span class="icon"><i class="fa fa-search"></i></span>
-      <input type="search" id="search" placeholder="Search..." />
-  </div>
-</div>
-
+<form>
+  <input class="search" type="text" placeholder="Cari..." required>	
+  <input class="button" type="button" value="Cari">		
+</form>
     
 </body>
 </html>
