@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  body { 
+      padding: 0;
+      margin: auto;
+      overflow-x: hidden;
+      display: flex;
+      justify-content: left;
+      align-items: left;
+      height: 100vh;
+      background: #CDA781;
+     }
+
+     h1 {
+      font-size: 3.0em;
+      padding: 0px;
+      margin-bottom: 10px;
+      margin-left: 170px;
+      margin-top: 90px;
+      font-family: PT comic;
+      color: rgb(8, 8, 8);
+    }
+
+    h2 {
+      font-size: 1.3em;
+      padding: 0;
+      margin-bottom: 10px;
+      margin-left: 170px;
+      font-family: PT crimson text;
+      color: rgb(8, 8, 8);
+    }
+
+    p {
+      font-size: 1.0em;
+      padding: 0;
+      margin-bottom: 10px;
+      margin-left: 170px;
+      font-family: PT crimson text;
+      color: rgb(8, 8, 8);
+    }
+    
+    .teks li {
+      font-size: 1.0em;
+      padding: 0;
+      margin-bottom: 10px;
+      margin-left: 170px;
+      font-family: PT crimson text;
+      color: rgb(8, 8, 8);
+    }
+
+    li {
+      list-style-type: none;
+    }

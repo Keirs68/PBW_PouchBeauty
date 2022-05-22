@@ -1,0 +1,53 @@
+body{
+    background-color: #CDA781;
+    margin: 0px;
+    padding: 0px;
+}
+
+.container-teks h1{
+    position: absolute;
+    width: 90%;
+    font-family: 'Times New Roman';
+    font-style: normal;
+    top: 30px;
+    font-weight: 400;
+    font-size: 75px;
+    left: 5%;
+    line-height: 0px;
+    /* identical to box height, or 42% */
+    text-align: center;
+    text-transform: capitalize;
+    color: #000000;
+    mix-blend-mode: multiply;
+}
+
+.img-skincheck{
+    position: absolute;
+    width: 30%;
+    height: 300px;
+    top: 30%;
+    left: 35%;
+}
+
+li {
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.btn{
+    position: absolute;
+    width: 30%;
+    height: 30px;
+    top: 550px;
+    left: 35%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background: white;
+    border-radius: 0px;
+    font-family: 'Times New Roman';
+    font-size: 30px;
+    color: black;
+}

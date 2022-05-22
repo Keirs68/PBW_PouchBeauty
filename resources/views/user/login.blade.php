@@ -19,9 +19,9 @@
             <label for="">Password</label><br>
             <input type="password"><br>
                <div class="reg">
-                  <h3>Belum Punya Akun? <a href="sign up">Sign up</a></h3><br>
+                <h3>Belum Punya Akun?<li><a href="signup">Sign up</a></li></h3><br>
                 </div>
-            <center><button>NEXT</button></center>
+            <center><button type="submit">NEXT</button></center>
         </form> 
     </div>
   </div>

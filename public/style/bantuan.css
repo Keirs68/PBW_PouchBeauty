@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  body { 
+      padding: 0;
+      margin: auto;
+      overflow-x: hidden;
+      display: flex;
+      justify-content: center;
+      align-items:left;
+      height: 100vh;
+      background: #CDA781;
+     }
+
+     h1 {
+      font-size: 1.3em;
+      padding: 120px;
+      margin-bottom: 10px;
+      font-family: PT comic;
+      color: rgb(8, 8, 8);
+    }
+    .container-right label{
+        text-align: left;
+        color: #0d0d0d;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 1.0em;
+      }
+   
+      .container-right form input {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 100px 130px;
+        border: 1px solid;
+        font-size: 20px;
+      }
+
+      .container-right form button {
+        width: 50%;
+        height: 35px;
+        padding: 5px 0;
+        border-radius: 15px;
+        background-color: 5F5940;
+        font-family: PT Serif;
+        font-size: 18px;
+        color: black;
+        font-weight: bold;
+      }
+      
+      .container-right a {
+       font-family: 'Times New Roman', Times, serif;
+       color:white;
+      }
+       
